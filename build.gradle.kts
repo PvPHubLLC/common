@@ -2,7 +2,7 @@ import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
     kotlin("jvm") version "1.8.21"
-    `maven-publish`
+    id("com.gradle.plugin-publish") version "1.1.0"
 }
 
 group = "co.pvphub"
